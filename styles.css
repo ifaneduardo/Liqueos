@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Sen:wght@400;700&family=Sora&display=swap');
+
+/*
+Fuentes:
+font-family: 'Sen', sans-serif;
+font-family: 'Sora', sans-serif;
+*/
+*{
+    color: #FFFFFF;
+    margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+body{
+    background-color: #05192D;
+}
+.navBar, .headerInfo, .nameGraph, .calendarContainer{
+    font-family: 'Sen', sans-serif;
+}
+.logo, .navBar li, .nav, .navBar{
+    background-color: #072038;
+}
+.nav, .navBar , .main, .headerInfo, .graph, .info, .infoGraph, .nameGraph, .calendarContainer{
+    display: flex;
+}
+.logo{
+    height: 65px;
+    margin-right: -20px;
+}
+.nav{
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 52px;
+    margin-bottom: 56px;
+    padding: 0 50px;
+}
+.navBar{
+    font-weight: 700;
+    font-size: 20px;
+}
+.navBar li{
+    list-style: none;
+    margin-left: 32px;
+}
+.main{
+    justify-content: center;
+}
+.graph{
+    width: 692px;
+    height: 448px;
+    background-color: #041220;
+    border-radius: 30px;
+    flex-direction: column;
+}
+.nameGraph h1{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    margin-right: 12px;
+}
+.nameGraph div{
+    align-self: center;
+    font-size: 13px;
+    padding: 3px 10px;
+    border: 1px solid #00C2FF;
+    border-radius: 15px;
+    line-height: 16px;
+}
+.calendar{
+    color: #00C2FF;
+    margin-left: 6px;
+}
+.calendar:first-child{
+    padding: 2px 4px;
+    background-color: #fff;
+    color: #041220;
+    border-radius: 5px;
+}
+.numbers{
+    font-family: 'Sora', sans-serif;
+}
+.date{
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+}
+.valueCrypto{
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 40px;
+}
+.numbers div span{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    color:#00FF19;
+
+}
+.infoGraph{
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+}
+.info{
+    flex-direction: column;
+    width: 278px;
+    height: 443px;
+    background-color: #28394A;
+    border-radius: 20px;
+    margin-left: 11px;
+}
+.headerInfo{
+    margin-top: 30px;
+    background-color: #28394A;
+}
+.config{
+    width: 19px;
+}
+.fromTo{
+    background-color: #102D49;
+}

@@ -225,6 +225,7 @@ body{
     .main{
         align-items: center;
         flex-direction: column;
+        width: calc(100% - 48px);
     }
     .graph{
         margin-top: -25px;
@@ -262,6 +263,9 @@ body{
 
   /*CELPHONE VERSION*/
   @media only screen and (max-width: 680px) {
+    .main{
+        width: 100%;
+    }
     .logo{
         width:40px;
         height:36px;

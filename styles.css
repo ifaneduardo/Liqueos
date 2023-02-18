@@ -267,9 +267,9 @@ body{
   }
 
   /*CELPHONE VERSION*/
-  @media only screen and (max-width: 550px) {
+  @media only screen and (max-width: 575px) {
     .main{
-        width: 100%;
+        min-width: 320px;
     }
     .logo{
         width:40px;

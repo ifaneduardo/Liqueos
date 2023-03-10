@@ -220,7 +220,7 @@ body{
 }
 
 /*IPAD VERSION*/
-@media only screen and (max-width: 860px) {
+@media only screen and (max-width: 1024px) {
     .logo{
         margin-right: 60px;
     }
@@ -267,7 +267,7 @@ body{
   }
 
   /*CELPHONE VERSION*/
-  @media only screen and (max-width: 575px) {
+  @media only screen and (max-width: 576px) {
     .main{
         min-width: 320px;
     }

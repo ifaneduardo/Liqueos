@@ -53,8 +53,11 @@ body{
 }
 .main{
     width: 100%;
-    max-width: 1200px;
     justify-content: center;
+}
+.containerMain{
+    justify-content: center;
+    max-width: 1200px;
 }
 .graph{
     width: 62%;
@@ -231,7 +234,7 @@ body{
         font-weight: 500;
         font-size: 16px;
     }
-    .main{
+    .containerMain{
         width: 100%;
         min-width: 720px;
         align-items: center;
@@ -278,7 +281,7 @@ body{
 
   /*CELPHONE VERSION*/
   @media only screen and (max-width: 576px) {
-    .main{
+    .containerMain{
         width: 100%;
         min-width: 320px;
     }
